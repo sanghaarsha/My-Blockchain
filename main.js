@@ -64,3 +64,8 @@ sangCoin.addBlock(new Block(2, "22/08/21", { amount: 10 }));
 
 console.log(JSON.stringify(sangCoin, null, 4));
 console.log("is chain valid?", sangCoin.isChainValid());
+
+// if data overwritten
+// sangCoin.chain[1].data = {amount:100}
+// console.log("is chain valid?", sangCoin.isChainValid());
+// we will get false
