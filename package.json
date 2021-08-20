@@ -1,0 +1,12 @@
+{
+  "name": "own-blockchain",
+  "version": "1.0.0",
+  "description": "Creating my first blockchain using JavaScript.",
+  "main": "main.js",
+  "author": "sanghaarsha",
+  "license": "MIT",
+  "private": null,
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
